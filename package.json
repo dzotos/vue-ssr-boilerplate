@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/dzotos/vue-ssr-boilerplate/issues"
   },
-  "homepage": "https://github.com/dzotos/vue-ssr-boilerplate#readme"
+  "homepage": "https://github.com/dzotos/vue-ssr-boilerplate#readme",
+  "devDependencies": {
+    "prettier": "^1.16.4"
+  }
 }
