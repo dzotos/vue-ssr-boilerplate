@@ -10,5 +10,8 @@ npm-debug.log
 .vscode/
 *.map
 
+# Build
+dist/
+
 # Other
 /.DS_Store
