@@ -1,0 +1,14 @@
+# Node
+node_modules/
+npm-debug.log
+
+# dotenv
+.env
+
+# Editors
+.idea/
+.vscode/
+*.map
+
+# Other
+/.DS_Store
