@@ -3,7 +3,7 @@
     <img width="200" height="200" src="https://vuejs.org/images/logo.png">
   </a>
   <br>
-  <h1>Vue.js Server Side Rendering Boilerplate [WIP🚧]</h1>
+  <h1>Vue.js Server Side Rendering Boilerplate WIP 🚧</h1>
   <p>
     Simple and lightweight Vue.js server side rendering boilerplate to build awesome web apps.
   </p>
