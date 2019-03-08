@@ -1,0 +1,27 @@
+{
+  "name": "vue-ssr-boilerplate",
+  "version": "1.0.0",
+  "description": "Vue.js boilerplate including, Webpack, Vue-router, Code-splitting and Server side rendering.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dzotos/vue-ssr-boilerplate.git"
+  },
+  "keywords": [
+    "vue",
+    "vue-router",
+    "boilerplate",
+    "starter-kit",
+    "ssr",
+    "server side rendering"
+  ],
+  "author": "Dimitris Zotos <dzwtos@gmail.com> (http://dzotos.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dzotos/vue-ssr-boilerplate/issues"
+  },
+  "homepage": "https://github.com/dzotos/vue-ssr-boilerplate#readme"
+}
