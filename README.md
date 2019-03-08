@@ -1,2 +1,2 @@
 # vue-ssr-boilerplate
-🔥Vue.js boilerplate including, Webpack, Vue-router, Code-splitting and Server side rendering.
+🔥Vue.js Boilerplate including Webpack, vue-router, code-splitting and server side rendering.
