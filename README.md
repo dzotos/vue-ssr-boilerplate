@@ -3,12 +3,12 @@
     <img width="200" height="200" src="https://vuejs.org/images/logo.png">
   </a>
   <br>
-  <h1>Vue.js Server Side Rendering Boilerplate [WIP]</h1>
+  <h1>Vue.js Server Side Rendering Boilerplate [WIP🚧]</h1>
   <p>
     Simple and lightweight Vue.js server side rendering boilerplate to build awesome web apps.
   </p>
 </div>
-
+<br>
 **What's included:**
 
 - Server-side rendering
@@ -32,20 +32,20 @@
 <h2 align="center">Installation</h2>
 Install with npm:
 ```sh
-npm install
+$ npm install
 ```
 <h2 align="center">Getting started</h2>
 Build and run the app.
 ```sh
-npm start
+$ npm start
 ```
-Node server is listening at `http://localhost:3000`
+Node server is listening at <a href="http://localhost:3000">http://localhost:3000</a>
 
 <h2 align="center">Architecture Overview</h2>
-_WIP..._
-
+WIP...
+<br><br>
 ![diagram](https://cloud.githubusercontent.com/assets/499550/17607895/786a415a-5fee-11e6-9c11-45a2cfdf085c.png)
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
