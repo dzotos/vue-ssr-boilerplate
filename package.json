@@ -1,6 +1,6 @@
 {
   "name": "vue-ssr-boilerplate",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Vue.js boilerplate including, Webpack, Vue-router, Code-splitting and Server side rendering.",
   "main": "index.js",
   "scripts": {
