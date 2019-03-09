@@ -38,6 +38,7 @@ Install with npm:
 $ npm install
 ```
 <h2 align="center">Getting started</h2>
+
 Build and run the app.
 
 ```sh
