@@ -13,6 +13,7 @@
 **What's included:**
 
 - Server-side rendering
+- Code-splitting
 - Prettier and ESLint run on commit
 - Vue-router
 - Webpack bundler
@@ -20,7 +21,6 @@
 
 **TODO:**
 
-- Code-splitting
 - Vuex (store & data pre-fetching)
 - CSS Modules, Sass, and autoprefixer
 - Polyfills
@@ -37,6 +37,7 @@ Install with npm:
 ```sh
 $ npm install
 ```
+
 <h2 align="center">Getting started</h2>
 
 Build and run the app.

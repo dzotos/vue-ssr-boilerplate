@@ -1,6 +1,6 @@
 {
   "name": "vue-ssr-boilerplate",
-  "version": "1.0.1",
+  "version": "1.1.1",
   "description": "Vue.js boilerplate including, Webpack, Vue-router, Code-splitting and Server side rendering.",
   "main": "index.js",
   "scripts": {
@@ -42,6 +42,7 @@
   },
   "devDependencies": {
     "@babel/core": "^7.3.4",
+    "@babel/plugin-syntax-dynamic-import": "^7.2.0",
     "@babel/preset-env": "^7.3.4",
     "babel-loader": "^8.0.5",
     "eslint": "^5.15.1",

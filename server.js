@@ -15,31 +15,21 @@ const renderer = require('vue-server-renderer').createRenderer({
 server.use('/dist', express.static(path.join(__dirname, './dist')));
 
 server.get('*', (req, res) => {
-  createApp.default({url: req.url}).then(
-    app => {
-      const context = {
-        title: 'Vue.js SSR Boilerplate',
-        meta: `
-        <meta description="Vue.js SSR Boilerplate">
-      `
-      };
+  const context = {url: req.url};
 
-      renderer.renderToString(app, context, function(err, html) {
-        if (err) {
-          if (err.code === 404) {
-            res.status(404).end('Page not found');
-          } else {
-            res.status(500).end('Internal Server Error');
-          }
+  createApp.default(context).then(app => {
+    renderer.renderToString(app, (err, html) => {
+      if (err) {
+        if (err.code === 404) {
+          res.status(404).end('Page not found');
         } else {
-          res.end(html);
+          res.status(500).end('Internal Server Error');
         }
-      });
-    },
-    err => {
-      console.log(err);
-    }
-  );
+      } else {
+        res.end(html);
+      }
+    });
+  });
 });
 
 server.listen(PORT, function() {

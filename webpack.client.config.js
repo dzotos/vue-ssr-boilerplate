@@ -37,8 +37,13 @@ module.exports = {
       },
       {
         test: /\.js$/,
-        loader: 'babel-loader',
-        exclude: /node_modules/
+        exclude: /node_modules/,
+        use: {
+          loader: 'babel-loader',
+          options: {
+            plugins: ['@babel/plugin-syntax-dynamic-import']
+          }
+        }
       },
       {
         test: /\.(png|jpg|gif|svg)$/,
